@@ -75,7 +75,7 @@ def main(model="en_core_web_trf", output_dir="models", n_iter=5):
                 train_data_list.append((text, {"entities": [(start, end, label)]}))
 
     # slicing the data
-    train_data_list = train_data_list[:10]
+    # train_data_list = train_data_list[:10]
 
     # add labels
     for _, annotations in train_data_list:
